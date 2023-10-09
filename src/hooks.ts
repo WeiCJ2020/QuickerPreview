@@ -42,7 +42,6 @@ async function onMainWindowLoad(win: Window): Promise<void> {
 
   KeyExampleFactory.registerShortcuts();
 
-  await Zotero.Promise.delay(1000);
   popupWin.changeLine({
     progress: 30,
     text: `[30%] ${getString("startup-begin")}`,
@@ -71,8 +70,6 @@ async function onMainWindowLoad(win: Window): Promise<void> {
   PromptExampleFactory.registerAnonymousCommandExample();
 
   PromptExampleFactory.registerConditionalCommandExample();
-
-  await Zotero.Promise.delay(1000);
 
   popupWin.changeLine({
     progress: 100,

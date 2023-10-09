@@ -1,13 +1,13 @@
 {
-  "name": "zotero-addon-template",
+  "name": "quicker-preview-annotation",
   "version": "1.0.0",
-  "description": "Zotero Addon Template",
+  "description": "quicker-preview-annotation",
   "config": {
-    "addonName": "Zotero Addon Template",
-    "addonID": "addontemplate@euclpts.com",
-    "addonRef": "addontemplate",
-    "addonInstance": "AddonTemplate",
-    "prefsPrefix": "extensions.zotero.addontemplate",
+    "addonName": "Quick Preview Annotation",
+    "addonID": "quickerpreview@weicj.cn",
+    "addonRef": "quickerpreviewweicj",
+    "addonInstance": "QuickPreviewAnnotation",
+    "prefsPrefix": "extensions.zotero.quickerpreviewweicj",
     "releasePage": "https://github.com/windingwind/zotero-addon-template/releases",
     "updateJSON": "https://raw.githubusercontent.com/windingwind/zotero-addon-template/main/update.json",
     "updateBetaJSON": "https://raw.githubusercontent.com/windingwind/zotero-addon-template/main/update-beta.json"
